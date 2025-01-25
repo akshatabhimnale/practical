@@ -1,0 +1,82 @@
+.Story {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+}
+
+.StoryContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+}
+
+.StoryCard {
+    display: flex;
+    align-items: center;
+}
+
+.imagecontainer {
+    width: 200px;
+    height: 200px;
+}
+
+.StoryImage {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    content: inherit;
+    transform: scaleX(-1);
+}
+
+.StoryContent {
+    padding: 18px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.StoryTitle {
+    font-family: Gluten;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.StoryDescription {
+    color: #65625E;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.ReadMoreButton {
+    width: 90px;
+    height: 31px;
+    gap: 0px;
+    border-radius: 5px;
+    border: 2px;
+    opacity: 0px;
+    color: #1C1812;
+    background-color: #DFDEDD;
+
+}
+
+.ReadMoreButton:hover {
+    background-color: #ccc;
+}

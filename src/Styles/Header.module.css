@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 28px 0px 8px 0px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    width: 333px;
+    justify-content: space-between;
+}
+
+img {
+    width: auto;
+}
+
+.text {
+    font-family: Gluten;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17.65px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #514432;
+}
+
+.nav {
+    display: flex;
+    width: 515px;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #1C1812;
+}
+.nav li {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.nav li:active, .nav li:hover{
+    text-decoration: underline;
+    text-decoration-style: 2px #1C1812 ;
+}
+
+.menu-icon {
+    display: none;
+}
+.nav.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav li {
+    margin: 10px 0;
+}
