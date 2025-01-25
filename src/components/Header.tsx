@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import FishLogo from "../assets/Fish-logo.png";
 import Headerstyle from "../Styles/Header.module.css";

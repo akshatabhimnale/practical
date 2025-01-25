@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import FeatureStyle from "../Styles/Feature.module.css";
 import HeroStyle from "../Styles/Hero.module.css";
 import Img1 from "../assets/feature1.jpg";

@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroStyle from "../Styles/Hero.module.css";
 import HeroImg from "../assets/heroimage.jpg"
 const Header = () => {

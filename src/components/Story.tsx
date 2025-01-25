@@ -1,4 +1,3 @@
-import React from 'react';
 import StoryStyle from '../Styles/Story.module.css';
 import FeatureStyle from '../Styles/Feature.module.css';
 import HeroStyle from "../Styles/Hero.module.css"

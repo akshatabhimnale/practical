@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom'; // Make sure to import Link
 import FooterStyle from "../Styles/Footer.module.css";
 import FooterLogo from "../assets/footer-logo.png";
