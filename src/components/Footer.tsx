@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'; // Make sure to import Link
-import FooterStyle from "../Styles/Footer.module.css";
+import FooterStyle from "../styles/Footer.module.css";
 import FooterLogo from "../assets/footer-logo.png";
 import Insta from "../assets/insta.png"
 import Fb from "../assets/fb.png"
